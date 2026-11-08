@@ -1,0 +1,9 @@
+{
+  "id": "page-typography",
+  "name": "Page Typography",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Set a separate font and font size for each note using the right-click menu.",
+  "author": "Huseyn",
+  "isDesktopOnly": false
+}

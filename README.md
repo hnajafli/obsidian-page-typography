@@ -2,14 +2,14 @@
 
 Set a separate font and text size for each Markdown note in Obsidian. All menu items and dialogs are in English.
 
-## Quraşdırma
+## Installation
 
-1. `page-typography-1.0.0.zip` arxivini açın.
-2. İçindəki `page-typography` qovluğunu vault-unuzun `.obsidian/plugins/` qovluğuna köçürün. `plugins` qovluğu yoxdursa, yaradın.
-3. Obsidian-ı yenidən başladın.
-4. **Settings → Community plugins** bölməsində **Page Typography** plugin-ini aktiv edin. Restricted mode aktivdirsə, əvvəlcə community plugin-lərə icazə verin.
+1. Download and extract the installation archive. [page-typography-1.0.0.zip](https://github.com/hnajafli/obsidian-page-typography/releases/download/1.0.0/page-typography-1.0.0.zip)
+2. Move the extracted `page-typography` folder into your vault's `.obsidian/plugins/` folder. Create the `plugins` folder if needed.
+3. Restart Obsidian.
+4. Go to **Settings → Community plugins** and enable **Page Typography**. If Restricted mode is active, allow community plugins first.
 
-Qovluq quruluşu belə olmalıdır:
+Your vault should have this folder structure.
 
 ```text
 Your vault/
@@ -21,15 +21,15 @@ Your vault/
         styles.css
 ```
 
-## İstifadə
+## Usage
 
-Səhifənin mətnində, tab başlığında və ya soldakı fayl siyahısında həmin səhifənin adında sağ klik edin:
+Right-click the note's text, its tab, or its name in File explorer.
 
-- **Page font…** — siyahıdan font seçin və ya quraşdırılmış fontun adını yazın. Siyahıdakı font adları nümunə olaraq öz fontları ilə göstərilir.
-- **Page font size…** — hazır ölçülərdən birini seçin və ya 8–96 px aralığında ölçü yazın; önizləmədən sonra **Apply** düyməsini basın.
-- **Reset page typography** — həmin səhifənin fontunu və ölçüsünü vault-un ümumi ayarlarına qaytarın.
+- **Page font…** — Choose a font from the list or type the name of an installed font. Each font name appears in its own typeface when available.
+- **Page font size…** — Pick a preset or enter a size from 8 to 96 px. Preview the result and click **Apply**.
+- **Reset page typography** — Restore the vault's default font and size for this note.
 
-Hər iki seçim pəncərəsində **Use vault default** yalnız həmin seçimi sıfırlayır: məsələn, fontu sıfırlayıb xüsusi ölçünü saxlaya bilərsiniz. Eyni əmrlər command palette-də də mövcuddur.
+Choose **Use vault default** in either picker to reset that setting independently. These commands are also available in the command palette.
 
 ## Behavior
 
